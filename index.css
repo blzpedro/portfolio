@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
 }
 
 /* --------------------------------- LADO ESQUERDO ------------------------------------------------- */
@@ -11,13 +12,16 @@
     height: auto;
 }
 
-.imagem-perfil{
-    background-color: grey;
-    border: 8px solid white;
-    height: 250px;
-    width: 50%;
-    margin: 90px auto 0 auto;
+.imagem-perfil{    
+    margin-top: 80px;    
+}
+
+.imagem-perfil img{
     border-radius: 50%;
+    border: 8px solid white;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
 }
 
 .info-perfil{
@@ -79,11 +83,16 @@
 }
 
 .info-topico{
-    height: 400px;
+    height: auto;
     margin-left: 20px;
     margin-top: 20px;
 }
 
 .info-topico h5{
     font-weight: bold;
+}
+
+.icon{
+    margin-right: 10px;
+    width: 28px;
 }
