@@ -175,3 +175,27 @@ footer p{
     margin-top: -1px;
     position: relative;
 }
+
+.painel-portfolio{
+    display: none;
+}
+
+.imagem-portfolio{
+
+}
+
+.boxSite{
+    margin: 20px 0;
+}
+
+.boxSite a{
+    color: black;
+}
+
+.boxSite a:hover{
+    color: black;
+}
+
+.boxSite a:visited{
+    color: black;
+}

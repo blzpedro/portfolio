@@ -1,3 +1,3 @@
-$('button').click(function(){
-    alert("foi");
-});
+$("h3").click(function(){
+    alert("aaa")
+  });
