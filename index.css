@@ -200,6 +200,9 @@ footer p{
     color: black;
 }
 
+.item-contato{
+    margin: 20px 0;
+}
 
 
 
@@ -236,6 +239,9 @@ footer p{
         font-weight: bold;
     }
 
+    .item-contato{
+        margin: 10px 0;
+    }
 }
 
 
