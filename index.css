@@ -210,12 +210,45 @@ footer p{
 
 /* -------------------------------------------------------- LADO DIREITO ------------------------------------------------- */
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 450px){
     .habilidades-perfil{
-        width: 80;
+        width: 80%;
     }
 
-    .habilidades-individual img{
-        margin-left: 10px;
+    .habilidade-individual img{
+        margin-right: 10px;
+    }
+
+    .habilidades-perfil:last-child{
+        margin-bottom: 30px;
     }
 }
+
+
+/* -------------------------------------------------------- LADO ESQUERDO ------------------------------------------------- */
+
+@media screen and (max-width: 768px){
+    .imagem-perfil{
+        margin-top: 30px;
+    }
+
+    .nome-site{
+        font-weight: bold;
+    }
+
+}
+
+
+/* -------------------------------------------------------- MEDIUM (768px | 1024px) ------------------------------------------------- */
+
+/* -------------------------------------------------------- LADO DIREITO ------------------------------------------------- */
+
+@media screen and (max-width: 1024px){
+
+    .habilidades-perfil:last-child{
+        margin-bottom: 30px;
+    }
+}
+
+
+
