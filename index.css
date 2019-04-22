@@ -286,8 +286,20 @@ footer p{
     transition: all 0.3s;
 }
 
+.voltar-topo{
+    display: none;
+}
+
+.voltar-topo img{    
+    background-color: rgb(80, 140, 189);
+    border-radius: 50%;
+    padding: 5px;
+}
 
 
+.display-block, .display-none{
+    display: none;
+}
 
 
 
@@ -351,9 +363,29 @@ footer p{
 /* -------------------------------------------------------- LADO DIREITO ------------------------------------------------- */
 
 @media screen and (max-width: 1024px){
-
     .habilidades-perfil:last-child{
         margin-bottom: 30px;
+    }
+
+    .voltar-topo{
+        display: none;
+        position: fixed;
+        z-index: 999;
+        bottom: 60px;
+        right: 20px;
+        transition: 2s ease-in-out;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .display-none{
+        display: none;
+    }
+
+    .display-block{
+        display: block;
     }
 }
 

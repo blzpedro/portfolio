@@ -15,3 +15,15 @@
       $(".painel-infos").css("display", "block");
       $(".painel-portfolio").css("display", "none");
   });
+
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 400) {
+      $('.voltar-topo').addClass("display-block")
+      $('.voltar-topo').addClass("hvr-buzz-out")
+    } else {
+      $('.voltar-topo').addClass('display-none');
+      $('.voltar-topo').removeClass("display-block")
+      $('.voltar-topo').removeClass("hvr-buzz-out")
+    }
+  });
