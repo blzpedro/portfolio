@@ -327,6 +327,10 @@ footer p{
     .habilidades-perfil:last-child{
         margin-bottom: 30px;
     } 
+
+    .imagem-portfolio{
+        background-size: 100%;
+    }
 }
 
 
