@@ -527,7 +527,7 @@ footer p{
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
-  .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
+  .titulo-habilidade-individual:hover .hvr-buzz-out,.titulo-habilidade-individual:focus .hvr-buzz-out,.titulo-habilidade-individual:active .hvr-buzz-out {
     -webkit-animation-name: hvr-buzz-out;
     animation-name: hvr-buzz-out;
     -webkit-animation-duration: 1s;
@@ -544,7 +544,7 @@ footer p{
     margin-bottom: 5px;
   }
 
-  .hvr-grow:hover{
+  .item-contato:hover .hvr-grow{
     transform: scale(1.3);
   }
 
