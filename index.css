@@ -240,17 +240,22 @@ footer p{
     top: -20px;
 }
 
-.imagem-portfolio:nth-child(1n){    
+.imagem-sg{    
     background-image: url(img/site1.png);
 }
 
-.imagem-portfolio:nth-child(2n){    
-    background-image: url(img/site1.png);
+.imagem-omega{    
+    background-image: url(img/site2.png);
 }
 
-.imagem-portfolio:nth-child(2n){    
-    background-image: url(img/site1.png);
+.imagem-ecoforte{    
+    background-image: url(img/site3.png);
 }
+
+.imagem-ellite{    
+    background-image: url(img/site4.png);
+}
+
 
 .boxSite{
     margin: 20px 0;
