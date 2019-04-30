@@ -6,7 +6,10 @@
       $(".aba1").addClass("aba-hover");
       $(".painel-portfolio").css("display", "block");
       $(".painel-infos").css("display", "none");
+<<<<<<< HEAD
       $(".contato-esquerda").css("display","block")
+=======
+>>>>>>> parent of 391cfc4... teste
   });
   
 
@@ -18,7 +21,10 @@
       $(".aba2").addClass("aba-hover");
       $(".painel-infos").css("display", "block");
       $(".painel-portfolio").css("display", "none");
+<<<<<<< HEAD
       $(".contato-esquerda").css("display","none")
+=======
+>>>>>>> parent of 391cfc4... teste
 
   });
 
