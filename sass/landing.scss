@@ -1,0 +1,273 @@
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white !important;   
+}
+
+//////////////////////////////////////// SESSÃO 1
+
+.sessao-um{
+    height: 430px;
+    @media screen and (min-width: 1700px) and (max-width: 1920px){
+        height: 50vh;        
+    }
+    background-color: #F36C37;
+    .sessao-um-tenis{        
+        z-index: 999;
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        img{
+            margin-left: 0;
+            position: absolute;
+            width: 55%;
+            right: 0;
+            overflow: hidden;
+        }
+    }
+    .sessao-um-rightdots{
+        z-index: 99;
+        display: block;
+        margin-left: auto;
+        position: absolute;
+        right: 0;
+        top: 190px;
+        img{
+            display: block;
+            margin-left: auto;
+            width: 80%;
+        }
+    }
+    
+    .sessao-um-leftdots{
+       img{
+        margin-top: 70px;
+        margin-left: -30px;
+        position: absolute;
+        width: 190px;   
+       } 
+    }
+
+    .sessao-um-texto{
+        position: absolute;
+        margin-left: 200px;
+        overflow: hidden;
+        height: 450px;
+        p{  
+            margin-bottom: -15px;
+            overflow: hidden;
+        }
+        span img{
+            margin-top: 50px; 
+            width: 200px;
+        }
+        p span:first-child{
+            font-size: 3em;
+            font-weight: 300;
+        }
+        p span:first-child ~ span{
+            font-size: 5em;
+            font-weight: 700;
+            -webkit-text-stroke: 1px white !important;
+            color: #F36C37 !important;
+            line-height: 45px;
+        }
+        p span:last-child{
+            font-size: 5em;
+            font-weight: 700;
+            -webkit-text-stroke: 0px !important;
+            line-height: 90px !important;
+        }
+        .edicao-baixada-santista{
+            font-size: 16px !important;
+        }
+
+        .inscreva-se{
+            border: 3px solid white;
+            border-radius: 5px;
+            padding: 15px;
+            padding-right: 50px;
+            padding-left: 50px;
+            font-weight: 700;
+            transition: .7s all;
+            position: absolute;
+            margin-bottom: 5px;
+            z-index: 9999;
+            &:hover{
+                color: #F36C37 !important;
+                background-color: white;
+            }
+        }
+    }
+}
+
+//////////////////////////////////////// SESSÃO 2
+
+.sessao-dois{
+    height: auto;
+    background-color: #573791;    
+    .sessao-dois-leftdots{
+        position: absolute;
+        z-index: 99;
+        margin-top: 100px;
+    }
+    .sessao-dois-moca{
+        z-index: 999;
+        img{
+            margin-top: -140px;
+        }
+    }
+
+    .sessao-dois-infos{
+        margin-top: 30px;
+        text-align: center;
+        .sessao-dois-textos{
+            padding: 15px;
+            h5{
+                font-weight: 700;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        h1{
+            font-size: 40px;
+        }
+        img{
+            width: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+        a{
+            background-color: #F36C37;
+            padding: 15px;
+            padding-right: 50px;
+            padding-left: 50px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 20px;
+            transition: .7s all;
+            &:hover{
+                background-color: white;
+                color: #F36C37 !important;
+            }
+        }
+    }
+}
+
+/////////////////////////////////////// SESSÃO 3
+
+.sessao-tres{
+    height: 1200px;
+    background-color: #F36C37;
+    .sessao-tres-trilhas{
+        margin-top: 80px;
+        h1, img{
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            font-weight: bold;
+        }
+        img{
+            width:100px;
+        }
+        .texto-trilhas{
+            text-align: center;
+            margin-top: 50px;
+            div p{
+                font-size: 14px;
+            }
+            div h5{
+                font-weight: bold;
+            }
+        }
+        .numero-etapas{
+            margin-top: 80px;
+            text-align: center;
+            .numero{
+                border: 2px solid white;
+                border-radius: 50%;
+                padding: 15px;
+                font-size: 44px;
+            }
+            .numero-ligacao{
+                margin-top: 50px;
+                border: 2px solid white;
+            }
+        }
+        .textos-etapas{
+            text-align: center;
+            margin-top: 30px;
+            .texto-etapa{
+                margin-right: auto;
+                display: block;
+                width: 14.66667%;
+                font-weight: bold;
+                span{                    
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+////////////////////////////////////// FOOTER
+
+footer{
+    background-color: #33383e;
+    .infos-footer{
+        margin: 0 auto;
+        .dilema-fcamara{
+            margin-top: 80px;
+            img{
+                width: 150px;
+            }
+            p{
+                margin-top: 30px;
+                font-size: 14px;
+                color: #9d9d9d !important;
+                strong{
+                    color: #a7a7a7 !important;
+                }
+            }
+        }
+        .onde-estamos{
+            margin-top: 50px;
+            .large-6 p{
+                color: #f0f0f0 !important;
+            }
+        }
+    }
+    .hr-fcamara{
+        border: solid 1px rgb(100, 100, 100);
+        margin-bottom: 0;
+    }
+    .direitos-footer{
+        margin: 0 auto;
+        font-size: 12px;
+        padding: 30px 0;
+    }
+    .icones-footer{
+        display: flex;
+        margin-left: auto;
+        img{
+            margin: 0 10px;
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 1600px) and (max-width: 1920px){
+    .sessao-um{
+        .sessao-um-tenis{
+            right: -5%;
+        }
+        .sessao-um-rightdots{
+            top: 290px;
+        }
+    }
+}
