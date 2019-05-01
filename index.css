@@ -94,7 +94,6 @@ footer p{
     overflow: hidden;
 }
 
-<<<<<<< HEAD
 .contato-esquerda{
     display: none;
 }
@@ -116,17 +115,12 @@ footer p{
 }
 
 
-=======
->>>>>>> parent of 391cfc4... teste
 /* --------------------------------- LADO DIREITO ------------------------------------------------- */
 
 .aba-hover:hover{
     background-color: white;
-<<<<<<< HEAD
     border: 3px solid rgb(80, 140, 189);   
-=======
     border: 3px solid rgb(80, 140, 189);    
->>>>>>> parent of 391cfc4... teste
 }
 
 .aba-hover:hover a{
@@ -171,10 +165,7 @@ footer p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
     cursor: pointer; 
-=======
->>>>>>> parent of 391cfc4... teste
 }
 
 .abas{    
@@ -429,8 +420,6 @@ footer p{
     .contato-esquerda{
         display: none !important;
     }
-=======
->>>>>>> parent of 391cfc4... teste
 }
 
 
@@ -541,11 +530,8 @@ footer p{
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
-<<<<<<< HEAD
   .titulo-habilidade-individual:hover .hvr-buzz-out,.titulo-habilidade-individual:focus .hvr-buzz-out,.titulo-habilidade-individual:active .hvr-buzz-out {
-=======
   .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
->>>>>>> parent of 391cfc4... teste
     -webkit-animation-name: hvr-buzz-out;
     animation-name: hvr-buzz-out;
     -webkit-animation-duration: 1s;
@@ -562,11 +548,8 @@ footer p{
     margin-bottom: 5px;
   }
 
-<<<<<<< HEAD
   .item-contato:hover .hvr-grow{
-=======
   .hvr-grow:hover{
->>>>>>> parent of 391cfc4... teste
     transform: scale(1.3);
   }
 
