@@ -531,7 +531,6 @@ footer p{
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
   .titulo-habilidade-individual:hover .hvr-buzz-out,.titulo-habilidade-individual:focus .hvr-buzz-out,.titulo-habilidade-individual:active .hvr-buzz-out {
-  .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
     -webkit-animation-name: hvr-buzz-out;
     animation-name: hvr-buzz-out;
     -webkit-animation-duration: 1s;
@@ -549,7 +548,6 @@ footer p{
   }
 
   .item-contato:hover .hvr-grow{
-  .hvr-grow:hover{
     transform: scale(1.3);
   }
 
