@@ -263,6 +263,11 @@ footer p{
     top: -20px;
 }
 
+
+.imagem-zure{    
+    background-image: url(img/site0.png);
+}
+
 .imagem-sg{    
     background-image: url(img/site1.png);
 }
