@@ -219,7 +219,7 @@ footer p{
     position: relative;
 }
 
-.painel-portfolio{
+.painel-portfolio, .painel-habilidades{
     display: none;
 }
 
@@ -284,6 +284,10 @@ footer p{
     background-image: url(img/site4.png);
 }
 
+.imagem-sbc{    
+    background-image: url(img/site5.png);
+}
+
 
 .boxSite{
     margin: 20px 0;
@@ -306,7 +310,7 @@ footer p{
 }
 
 
-.painel-portfolio, .painel-infos{
+.painel-portfolio, .painel-infos, .painel-habilidades{
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -331,6 +335,21 @@ footer p{
 
 
 
+.painel-habilidades .titulo-habilidade-individual{
+    color: black;
+}
+
+.painel-habilidades .habilidades-perfil{
+    width: 50%;
+}
+
+.painel-habilidades .habilidade-individual{
+    margin: 30px 0;
+}
+
+.painel-habilidades .habilidade-individual span{
+    font-weight: bold;
+}
 
 
 
@@ -343,9 +362,23 @@ footer p{
 
 /* -------------------------------------------------------- LADO DIREITO ------------------------------------------------- */
 
+@media screen and (max-width: 420px){
+    .paineis .aba{
+        width: 30% !important;
+    }
+
+    .paineis .abas h3{
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 450px){
     .habilidades-perfil{
-        width: 80%;
+        width: 80% !important;
+    }
+
+    .voltar-topo{
+        width: 15% !important;
     }
 
     .habilidade-individual img{
