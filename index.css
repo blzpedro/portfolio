@@ -288,6 +288,18 @@ footer p{
     background-image: url(img/site5.png);
 }
 
+.imagem-wa{    
+    background-image: url(img/site6.png);
+}
+
+.imagem-react{    
+    background-image: url(img/react.png);
+}
+
+.imagem-vue{    
+    background-image: url(img/vue.png);
+}
+
 
 .boxSite{
     margin: 20px 0;
