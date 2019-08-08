@@ -300,6 +300,10 @@ footer p{
     background-image: url(img/vue.png);
 }
 
+.imagem-highcharts{    
+    background-image: url(img/highcharts.png);
+}
+
 
 .boxSite{
     margin: 20px 0;
